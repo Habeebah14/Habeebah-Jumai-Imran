@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Javacript</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <button id="button" type="button" onclick="myFuntion()">Hello World!</button> <br> <br>    
+    <button id="buttons" onclick="anyfunction()">Welcome to my coding world</button>
+    <p id="demo3"></p>
+    
+    <h1>Introduction to Javacript</h1>
+    <h1 id="demo4"></h1>
+   <fieldset>
+    <p id="add"></p>
+  <p id="sub"></p>
+  <p id="multiply"></p>
+  <p id="div"></p>
+  <p id="demo5"></p>
+</fieldset>
+    <script>
+        function myFuntion(){
+            let a = 1;
+            let b = 7;
+            let c = 3+(a *b);
+            document.getElementById("demo").innerHTML = "I love coding"
+            document.getElementById("demo1").innerHTML = "My name is Habeebah Jumai Imran"
+            document.getElementById("demo").innerHTML = "I love coding. "  +"I am Presetly in Grade " + c   ;          
+            document.getElementById("demo3").innerHTML= "JavaScript is programming language used to make website interactive "  
+        }
+        function anyfunction(){
+            document.getElementById("demo3").innerHTML = "JavaScript is a programming language used to make website interactive"
+        }
+
+        var num1 = 120;
+        var num2 = 30 ;
+        var add = num1 + num2;
+        var sub = num1 -num2;
+        var mul = num1 * num2;
+        var div = num1 / num2;
+        document.getElementById("add").innerHTML ="The sum of the values are:" + add;
+        document.getElementById("sub").innerHTML ="The difference between the values is :" +  sub;
+        document.getElementById("multiply").innerHTML = mul;
+        document.getElementById("div").innerHTML = div;
+
+
+    
+
+        
+    </script>
+</body>
+</html>
